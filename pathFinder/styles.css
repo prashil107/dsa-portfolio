@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/download\ \(3\).jpeg);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #3333336f;
+    color: #fff;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(20, 30px); /* Adjust grid size */
+    justify-content: center;
+    gap: 2px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.cell.start {
+    background: #4caf50;
+}
+
+.cell.end {
+    background: #ff6347;
+}
+
+.cell.wall {
+    background: #333;
+}
+
+.cell.visited {
+    background: #87ceeb;
+}
+
+.cell.path {
+    background: #ffd700;
+}
