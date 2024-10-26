@@ -1,34 +1,64 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prashil's Portfolio</title>
+    <title>DSA Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Prashil's Portfolio</h1>
-    <h2>I am a web developer</h2>
-    <hr />
-    <a href="./public/movie-ranking.html">Movie Ranking Project</a>
-    <img src="./assets/images/movie-ranking.png" height="200"/>
-    <a href="./public/birthday-invite.html">Bithday Invite Project</a>
-    <img src="./assets/images/birthday-invite.png" height="200"/>
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
+
+    <header>
+        <div class="container">
+            <h1>My Data Structures & Algorithms Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Prashil Singh (RA2311028010132), a passionate developer focused on mastering Data Structures and Algorithms. I love solving problems and optimizing solutions.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Sorting Visualizer</h3>
+                <p>Description: A web-based application that visualizes various sorting algorithms like Quick Sort, Merge Sort, etc.</p>
+                <a href="/sortingVisualiser/index2.html">Sorting Visualizer</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: Pathfinding Algorithms</h3>
+                <p>Description: Implemented A* and Dijkstra's algorithms to visualize shortest paths on a grid.</p>
+                <a href="/pathFinder/index3.html">PathFinder</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Data Structures: Arrays, Linked Lists, Trees, Graphs, Stacks, Queues, etc.</li>
+                <li>Algorithms: Sorting, Searching, Graph Algorithms, Dynamic Programming, etc.</li>
+                <li>Languages: C++, Python, Java, etc.</li>
+                <li>Problem Solving (Competitive Programming)</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Prashil Singh. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
