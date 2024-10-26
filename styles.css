@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(/assets/download.gif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #000000c5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.project {
+    background: #00000086;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px;
+    width: 100px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #000000c5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+}
+.overlay {
+    position: fixed; /* Fixes the overlay to cover the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 0; /* Place it behind the content */
+}

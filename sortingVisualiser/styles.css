@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/download\ \(3\).jpeg);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #3333336f;
+    color: #fff;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.visualizer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bar {
+    background: #4caf50;
+    margin: 0 2px;
+    display: inline-block;
+}
+
+.bar.sorted {
+    background: #ff6347;
+}
+
+#generated-array{
+    color: #fff;
+}

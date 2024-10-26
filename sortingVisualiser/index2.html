@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sorting Visualizer</h1>
+    </header>
+
+    <section class="controls">
+        <label for="algorithm">Select Algorithm: </label>
+        <select id="algorithm">
+            <option value="bubbleSort">Bubble Sort</option>
+            <option value="quickSort">Quick Sort</option>
+        </select>
+
+        <button id="generate-button">Generate New Array</button>
+        <button id="sort-button">Sort</button>
+    </section>
+
+    <section class="visualizer" id="array-container"></section>
+    <div class="array-display">
+        <h2>Generated Array:</h2>
+        <p id="generated-array"></p>
+    </div>
+    <div class="array-display">
+        <h2>Sorted Array:</h2>
+        <p id="sorted-array"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
