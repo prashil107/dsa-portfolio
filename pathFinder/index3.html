@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pathfinding Visualizer</h1>
+    </header>
+
+    <section class="controls">
+    <label for="algorithm">Select Algorithm: </label>
+    <select id="algorithm">
+        <option value="astar">A*</option>
+        <option value="dijkstra">Dijkstra's Algorithm</option>
+    </select>
+
+    <button id="generate-button">Generate New Grid</button>
+    <button id="visualize-button">Visualize Path</button>
+</section>
+
+
+    <section class="grid-container" id="grid-container"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
