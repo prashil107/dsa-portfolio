@@ -43,6 +43,10 @@ button {
     background: #ff6347;
 }
 
-#generated-array{
+.array-display{
+    color: #fff;
+}
+
+#sorted-array{
     color: #fff;
 }
