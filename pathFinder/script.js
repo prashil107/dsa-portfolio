@@ -1,5 +1,5 @@
-const rows = 15;
-const cols = 15;
+const rows = 20;
+const cols = 20;
 let grid = [];
 let start = [0, 0]; // Default start point
 let end = [19, 19]; // Default end point
